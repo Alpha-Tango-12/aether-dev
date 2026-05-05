@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  
+  <rect width="64" height="64" rx="10" fill="#0d1a2e"></rect>
+  
+  
+  <polygon points="32,8 56,52 8,52" fill="none" stroke="#56a0d3" stroke-width="2.5" stroke-linejoin="round"></polygon>
+  
+  
+  <line x1="32" y1="8" x2="32" y2="52" stroke="#56a0d3" stroke-width="0.8" opacity="0.35"></line>
+  
+  
+  <line x1="24.5" y1="26" x2="39.5" y2="26" stroke="#56a0d3" stroke-width="1.2" opacity="0.6"></line>
+  
+  
+  <polygon points="32,9.5 38.5,25 25.5,25" fill="#56a0d3" opacity="0.15"></polygon>
+  <polygon points="32,9.5 38.5,25 25.5,25" fill="none" stroke="#56a0d3" stroke-width="2.5" stroke-linejoin="round"></polygon>
+  
+  
+  <line x1="32" y1="17" x2="32" y2="12" stroke="#56a0d3" stroke-width="0.8" opacity="0.5"></line>
+  <line x1="32" y1="17" x2="36.5" y2="13.5" stroke="#56a0d3" stroke-width="0.8" opacity="0.35"></line>
+  <line x1="32" y1="17" x2="27.5" y2="13.5" stroke="#56a0d3" stroke-width="0.8" opacity="0.35"></line>
+  
+  
+  <ellipse cx="32" cy="17.5" rx="4.5" ry="3" fill="#0d1a2e" stroke="#56a0d3" stroke-width="1.5"></ellipse>
+  
+  
+  <circle cx="32" cy="17.5" r="1.8" fill="#56a0d3" opacity="0.7"></circle>
+  
+  
+  <circle cx="32" cy="17.5" r="0.8" fill="#0d1a2e"></circle>
+  
+  
+  <circle cx="32" cy="17.5" r="0.3" fill="#fff" opacity="0.9"></circle>
+  
+  
+  <polygon points="32,8 56,52 8,52" fill="none" stroke="#56a0d3" stroke-width="0.5" opacity="0.2" transform="scale(1.02) translate(-0.64, -0.5)"></polygon>
+</svg>
