@@ -5,8 +5,8 @@
 //
 // To add a new passcode:
 //   1. Add an entry to the DAVINCI_CODES array below
-//   2. Drop images/videos into public/uploads/davinci/
-//   3. Reference them with src: '/uploads/davinci/filename.jpg'
+//   2. Upload media:  aws s3 cp photo.jpg s3://aether-media-assets/davinci/photo.jpg
+//   3. Reference with: S3_BASE + 'davinci/photo.jpg'
 //
 // Media types:
 //   - 'image' → renders as <img>
@@ -30,6 +30,8 @@ export interface DaVinciEntry {
   passcode: string
   journal: DaVinciJournal
 }
+
+const S3_BASE = 'https://aether-media-assets.s3.us-east-2.amazonaws.com/'
 
 export const DAVINCI_CODES: DaVinciEntry[] = [
 
@@ -75,9 +77,7 @@ The music is the stained glass.
 And the hidden messages… are the prayers.`,
       ],
       media: [
-        // Example — drop your photos into public/uploads/davinci/ and add entries here:
-        { type: 'image', src: '/uploads/davinci/aly_1.jpg', caption: 'Where it all began' },
-        // { type: 'video', src: '/uploads/davinci/clip.mp4', caption: 'Behind the scenes' },
+        { type: 'image', src: S3_BASE + 'davinci/aly_1.jpg', caption: 'Where it all began' },
       ],
     },
   },
@@ -92,7 +92,7 @@ And the hidden messages… are the prayers.`,
   //       `Your journal text here...`,
   //     ],
   //     media: [
-  //       { type: 'image', src: '/uploads/davinci/butterfly.jpg', caption: 'The moment' },
+  //       { type: 'image', src: S3_BASE + 'davinci/butterfly.jpg', caption: 'The moment' },
   //     ],
   //   },
   // },
